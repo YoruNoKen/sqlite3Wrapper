@@ -1,0 +1,31 @@
+{
+  "name": "sqlite3-wrapper",
+  "version": "1.0.0",
+  "description": "A JavaScript wrapper forSQLite3.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "tester": "node test/index.js"
+  },
+  "keywords": [
+    "sqlite3",
+    "sql"
+  ],
+  "author": "yoru#9267",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YoruNoKen/sqlite3Wrapper"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.6"
+  }
+}
