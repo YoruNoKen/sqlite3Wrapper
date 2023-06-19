@@ -1,5 +1,5 @@
 {
-  "name": "sqlite3-wrapper",
+  "name": "sqlite3-wrapper-me",
   "version": "1.0.0",
   "description": "A JavaScript wrapper forSQLite3.",
   "main": "dist/index.js",
